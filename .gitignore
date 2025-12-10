@@ -1,0 +1,5 @@
+framework
+output
+sootOutput
+android.jar
+soot-4.5.0.jar

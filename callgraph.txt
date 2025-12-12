@@ -1,0 +1,179 @@
+CALLER: <com.android.server.StorageManagerService$3: void onDiskScanned(java.lang.String)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+    -> <com.android.server.StorageManagerService: void '-$$Nest$monDiskScannedLocked'(com.android.server.StorageManagerService,android.os.storage.DiskInfo)>
+    -> <com.android.server.StorageManagerService: android.util.ArrayMap '-$$Nest$fgetmDisks'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: java.lang.Object '-$$Nest$fgetmLock'(com.android.server.StorageManagerService)>
+
+CALLER: <com.android.server.connectivity.NetdEventListenerService: void onWakeupEvent(java.lang.String,int,int,int,byte[],java.lang.String,java.lang.String,int,int,long)>
+    -> <com.android.internal.util.FrameworkStatsLog: void write(int,int,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,int,int,int)>
+    -> <com.android.server.connectivity.NetdEventListenerService: void <clinit>()>
+
+CALLER: <com.android.server.StorageManagerService$7: boolean onVolumeChecking(java.io.FileDescriptor,java.lang.String,java.lang.String)>
+    -> <com.android.server.StorageManagerService: android.os.Handler '-$$Nest$fgetmHandler'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: com.android.server.storage.StorageSessionController '-$$Nest$fgetmStorageSessionController'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+
+CALLER: <com.android.server.StorageManagerService$3: void onVolumeDestroyed(java.lang.String)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+    -> <com.android.server.StorageManagerService: com.android.server.pm.Installer '-$$Nest$fgetmInstaller'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: com.android.server.storage.StorageSessionController '-$$Nest$fgetmStorageSessionController'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: android.util.ArrayMap '-$$Nest$fgetmVolumes'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: java.lang.Object '-$$Nest$fgetmLock'(com.android.server.StorageManagerService)>
+
+CALLER: <com.android.server.StorageManagerService$9: void onStatus(int,android.os.PersistableBundle)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+    -> <com.android.server.StorageManagerService: void '-$$Nest$mwriteSettingsLocked'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: android.os.storage.VolumeRecord '-$$Nest$mfindRecordForPath'(com.android.server.StorageManagerService,java.lang.String)>
+    -> <com.android.server.StorageManagerService: java.lang.Object '-$$Nest$fgetmLock'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: java.lang.String '-$$Nest$mscrubPath'(com.android.server.StorageManagerService,java.lang.String)>
+    -> <com.android.server.StorageManagerService: android.content.Context '-$$Nest$fgetmContext'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: void '-$$Nest$mdispatchOnStatus'(com.android.server.StorageManagerService,android.os.IVoldTaskListener,int,android.os.PersistableBundle)>
+
+CALLER: <com.android.server.connectivity.NetdEventListenerService: void onTcpSocketStatsEvent(int[],int[],int[],int[],int[])>
+    -> <com.android.server.connectivity.NetdEventListenerService: void <clinit>()>
+
+CALLER: <com.android.server.StorageManagerService$3: void onVolumeInternalPathChanged(java.lang.String,java.lang.String)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+    -> <com.android.server.StorageManagerService: android.util.ArrayMap '-$$Nest$fgetmVolumes'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: java.lang.Object '-$$Nest$fgetmLock'(com.android.server.StorageManagerService)>
+
+CALLER: <com.android.server.StorageManagerService$3: void onVolumeCreated(java.lang.String,int,java.lang.String,java.lang.String,int)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+    -> <com.android.server.StorageManagerService: void '-$$Nest$monVolumeCreatedLocked'(com.android.server.StorageManagerService,android.os.storage.VolumeInfo)>
+    -> <com.android.server.StorageManagerService: android.util.ArrayMap '-$$Nest$fgetmVolumes'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: android.util.ArrayMap '-$$Nest$fgetmDisks'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: java.lang.Object '-$$Nest$fgetmLock'(com.android.server.StorageManagerService)>
+
+CALLER: <com.android.server.devicestate.DeviceStateManagerService$HalService: void registerListener(android.frameworks.devicestate.IDeviceStateListener)>
+    -> <com.android.server.devicestate.DeviceStateManagerService: void <clinit>()>
+    -> <com.android.server.devicestate.DeviceStateManagerService: android.hardware.devicestate.DeviceStateInfo '-$$Nest$mregisterProcess'(com.android.server.devicestate.DeviceStateManagerService,int,android.hardware.devicestate.IDeviceStateManagerCallback)>
+    -> <com.android.server.devicestate.DeviceStateManagerService$HalService$HalBinderCallback: void <init>(com.android.server.devicestate.DeviceStateManagerService$HalService,android.frameworks.devicestate.IDeviceStateListener,com.android.server.devicestate.DeviceStateManagerService-IA)>
+    -> <com.android.server.devicestate.DeviceStateManagerService$HalService$HalBinderCallback: void onDeviceStateInfoChanged(android.hardware.devicestate.DeviceStateInfo)>
+
+CALLER: <com.android.server.broadcastradio.aidl.RadioModule$1: void onProgramListUpdated(android.hardware.broadcastradio.ProgramListChunk)>
+    -> <com.android.server.broadcastradio.aidl.RadioModule: void '-$$Nest$mfireLater'(com.android.server.broadcastradio.aidl.RadioModule,java.lang.Runnable)>
+    -> <com.android.server.broadcastradio.aidl.RadioModule$1$$ExternalSyntheticLambda0: void <init>(com.android.server.broadcastradio.aidl.RadioModule$1,android.hardware.broadcastradio.ProgramListChunk)>
+
+CALLER: <com.android.server.broadcastradio.aidl.RadioModule$1: void onCurrentProgramInfoChanged(android.hardware.broadcastradio.ProgramInfo)>
+    -> <com.android.server.broadcastradio.aidl.RadioModule: void '-$$Nest$mfireLater'(com.android.server.broadcastradio.aidl.RadioModule,java.lang.Runnable)>
+    -> <com.android.server.broadcastradio.aidl.RadioModule$1$$ExternalSyntheticLambda1: void <init>(com.android.server.broadcastradio.aidl.RadioModule$1,android.hardware.broadcastradio.ProgramInfo)>
+
+CALLER: <com.android.server.StorageManagerService$8: void onFinished(int,android.os.PersistableBundle)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+    -> <com.android.server.StorageManagerService: void '-$$Nest$mwriteSettingsLocked'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: android.os.storage.VolumeRecord '-$$Nest$mfindRecordForPath'(com.android.server.StorageManagerService,java.lang.String)>
+    -> <com.android.server.StorageManagerService: java.lang.Object '-$$Nest$fgetmLock'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: java.lang.String '-$$Nest$mscrubPath'(com.android.server.StorageManagerService,java.lang.String)>
+    -> <com.android.server.StorageManagerService: android.content.Context '-$$Nest$fgetmContext'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: void '-$$Nest$mdispatchOnFinished'(com.android.server.StorageManagerService,android.os.IVoldTaskListener,int,android.os.PersistableBundle)>
+
+CALLER: <com.android.server.devicestate.DeviceStateManagerService$HalService: void unregisterListener(android.frameworks.devicestate.IDeviceStateListener)>
+    -> <com.android.server.devicestate.DeviceStateManagerService: void <clinit>()>
+    -> <com.android.server.devicestate.DeviceStateManagerService: android.util.SparseArray '-$$Nest$fgetmProcessRecords'(com.android.server.devicestate.DeviceStateManagerService)>
+    -> <com.android.server.devicestate.DeviceStateManagerService: java.lang.Object '-$$Nest$fgetmLock'(com.android.server.devicestate.DeviceStateManagerService)>
+
+CALLER: <com.android.server.StorageManagerService$3: void onVolumeStateChanged(java.lang.String,int,int)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+    -> <com.android.server.StorageManagerService: void '-$$Nest$monVolumeStateChangedLocked'(com.android.server.StorageManagerService,android.os.storage.VolumeInfo,int)>
+    -> <com.android.server.StorageManagerService: android.os.Handler '-$$Nest$fgetmHandler'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: android.util.ArrayMap '-$$Nest$fgetmVolumes'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: java.lang.Object '-$$Nest$fgetmLock'(com.android.server.StorageManagerService)>
+
+CALLER: <com.android.server.StorageManagerService$9: void onFinished(int,android.os.PersistableBundle)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+    -> <com.android.server.StorageManagerService: void '-$$Nest$mdispatchOnFinished'(com.android.server.StorageManagerService,android.os.IVoldTaskListener,int,android.os.PersistableBundle)>
+
+CALLER: <com.android.server.StorageManagerService$3: void onVolumePathChanged(java.lang.String,java.lang.String)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+    -> <com.android.server.StorageManagerService: android.util.ArrayMap '-$$Nest$fgetmVolumes'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: java.lang.Object '-$$Nest$fgetmLock'(com.android.server.StorageManagerService)>
+
+CALLER: <com.android.server.StorageManagerService$3: void onVolumeMetadataChanged(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+    -> <com.android.server.StorageManagerService: android.util.ArrayMap '-$$Nest$fgetmVolumes'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: java.lang.Object '-$$Nest$fgetmLock'(com.android.server.StorageManagerService)>
+
+CALLER: <com.android.server.StorageManagerService$3: void onDiskMetadataChanged(java.lang.String,long,java.lang.String,java.lang.String)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+    -> <com.android.server.StorageManagerService: android.util.ArrayMap '-$$Nest$fgetmDisks'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: java.lang.Object '-$$Nest$fgetmLock'(com.android.server.StorageManagerService)>
+
+CALLER: <com.android.server.companion.virtual.camera.VirtualCameraConversionUtil$1: void onStreamConfigured(int,android.view.Surface,int,int,int)>
+    -> <com.android.server.companion.virtual.camera.VirtualCameraConversionUtil: int '-$$Nest$smconvertToJavaFormat'(int)>
+
+CALLER: <com.android.server.StorageManagerService$3: void onDiskDestroyed(java.lang.String)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+    -> <com.android.server.StorageManagerService$Callbacks: void '-$$Nest$mnotifyDiskDestroyed'(com.android.server.StorageManagerService$Callbacks,android.os.storage.DiskInfo)>
+    -> <com.android.server.StorageManagerService: com.android.server.StorageManagerService$Callbacks '-$$Nest$fgetmCallbacks'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: android.util.ArrayMap '-$$Nest$fgetmDisks'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: java.lang.Object '-$$Nest$fgetmLock'(com.android.server.StorageManagerService)>
+
+CALLER: <com.android.server.StorageManagerService$3: void onDiskCreated(java.lang.String,int)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+    -> <com.android.server.StorageManagerService: android.util.ArrayMap '-$$Nest$fgetmDisks'(com.android.server.StorageManagerService)>
+    -> <com.android.server.StorageManagerService: java.lang.Object '-$$Nest$fgetmLock'(com.android.server.StorageManagerService)>
+
+CALLER: <com.android.server.health.HealthRegCallbackAidl$HalInfoCallback: void healthInfoChanged(android.hardware.health.HealthInfo)>
+    -> <com.android.server.health.HealthRegCallbackAidl: com.android.server.health.HealthInfoCallback '-$$Nest$fgetmServiceInfoCallback'(com.android.server.health.HealthRegCallbackAidl)>
+
+CALLER: <com.android.server.broadcastradio.aidl.RadioModule$1: void onParametersUpdated(android.hardware.broadcastradio.VendorKeyValue[])>
+    -> <com.android.server.broadcastradio.aidl.RadioModule: void '-$$Nest$mfireLater'(com.android.server.broadcastradio.aidl.RadioModule,java.lang.Runnable)>
+    -> <com.android.server.broadcastradio.aidl.RadioModule$1$$ExternalSyntheticLambda3: void <init>(com.android.server.broadcastradio.aidl.RadioModule$1,android.hardware.broadcastradio.VendorKeyValue[])>
+
+CALLER: <com.android.server.broadcastradio.aidl.RadioModule$1: void onAntennaStateChange(boolean)>
+    -> <com.android.server.broadcastradio.aidl.RadioModule: void '-$$Nest$mfireLater'(com.android.server.broadcastradio.aidl.RadioModule,java.lang.Runnable)>
+    -> <com.android.server.broadcastradio.aidl.RadioModule$1$$ExternalSyntheticLambda4: void <init>(com.android.server.broadcastradio.aidl.RadioModule$1,boolean)>
+
+CALLER: <com.android.server.broadcastradio.aidl.RadioModule$2: void onListUpdated(android.hardware.broadcastradio.Announcement[])>
+    -> <com.android.server.broadcastradio.aidl.ConversionUtils: android.hardware.radio.Announcement announcementFromHalAnnouncement(android.hardware.broadcastradio.Announcement)>
+
+CALLER: <com.android.server.StorageManagerService$12: void onStatus(int,android.os.PersistableBundle)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+    -> <com.android.server.StorageManagerService: void '-$$Nest$monMoveStatusLocked'(com.android.server.StorageManagerService,int)>
+    -> <com.android.server.StorageManagerService: java.lang.Object '-$$Nest$fgetmLock'(com.android.server.StorageManagerService)>
+
+CALLER: <com.android.server.StorageManagerService$8: void onStatus(int,android.os.PersistableBundle)>
+    -> <com.android.server.StorageManagerService: void <clinit>()>
+    -> <com.android.server.StorageManagerService: void '-$$Nest$mdispatchOnStatus'(com.android.server.StorageManagerService,android.os.IVoldTaskListener,int,android.os.PersistableBundle)>
+
+CALLER: <com.android.server.broadcastradio.aidl.RadioModule$1: void onTuneFailed(int,android.hardware.broadcastradio.ProgramSelector)>
+    -> <com.android.server.broadcastradio.aidl.RadioModule: void '-$$Nest$mfireLater'(com.android.server.broadcastradio.aidl.RadioModule,java.lang.Runnable)>
+    -> <com.android.server.broadcastradio.aidl.RadioModule$1$$ExternalSyntheticLambda2: void <init>(com.android.server.broadcastradio.aidl.RadioModule$1,android.hardware.broadcastradio.ProgramSelector,int)>
+
+CALLER: <com.android.server.broadcastradio.aidl.RadioModule$1: void onConfigFlagUpdated(int,boolean)>
+    -> <com.android.server.broadcastradio.aidl.RadioModule: void '-$$Nest$mfireLater'(com.android.server.broadcastradio.aidl.RadioModule,java.lang.Runnable)>
+    -> <com.android.server.broadcastradio.aidl.RadioModule$1$$ExternalSyntheticLambda5: void <init>(com.android.server.broadcastradio.aidl.RadioModule$1,int,boolean)>
+
+CALLER: <com.android.server.companion.virtual.camera.VirtualCameraConversionUtil: int '-$$Nest$smconvertToJavaFormat'(int)>
+    -> <com.android.server.companion.virtual.camera.VirtualCameraConversionUtil: int convertToJavaFormat(int)>
+
+CALLER: <com.android.server.broadcastradio.aidl.ConversionUtils: android.hardware.radio.Announcement announcementFromHalAnnouncement(android.hardware.broadcastradio.Announcement)>
+    -> <com.android.server.broadcastradio.aidl.ConversionUtils: android.hardware.radio.ProgramSelector programSelectorFromHalProgramSelector(android.hardware.broadcastradio.ProgramSelector)>
+    -> <com.android.server.broadcastradio.aidl.ConversionUtils: java.util.Map vendorInfoFromHalVendorKeyValues(android.hardware.broadcastradio.VendorKeyValue[])>
+
+CALLER: <com.android.server.broadcastradio.aidl.ConversionUtils: android.hardware.radio.ProgramSelector programSelectorFromHalProgramSelector(android.hardware.broadcastradio.ProgramSelector)>
+    -> <com.android.server.broadcastradio.aidl.ConversionUtils: boolean isEmpty(android.hardware.broadcastradio.ProgramSelector)>
+    -> <com.android.server.broadcastradio.aidl.ConversionUtils: android.hardware.radio.ProgramSelector$Identifier identifierFromHalProgramIdentifier(android.hardware.broadcastradio.ProgramIdentifier)>
+    -> <com.android.server.broadcastradio.aidl.ConversionUtils: int identifierTypeToProgramType(int)>
+    -> <com.android.server.broadcastradio.aidl.ConversionUtils: boolean isValidHalProgramSelector(android.hardware.broadcastradio.ProgramSelector)>
+
+CALLER: <com.android.server.broadcastradio.aidl.ConversionUtils: boolean isValidHalProgramSelector(android.hardware.broadcastradio.ProgramSelector)>
+    -> <com.android.server.broadcastradio.aidl.ConversionUtils: boolean isVendorIdentifierType(int)>
+
+CALLER: <com.android.server.hdmi.HdmiEarcController$EarcAidlCallback: void onCapabilitiesReported(byte[],int)>
+    -> <com.android.server.hdmi.HdmiEarcController$EarcAidlCallback$$ExternalSyntheticLambda1: void <init>(com.android.server.hdmi.HdmiEarcController$EarcAidlCallback,byte[],int)>
+
+CALLER: <com.android.server.hdmi.HdmiEarcController$EarcAidlCallback: void onStateChange(byte,int)>
+    -> <com.android.server.hdmi.HdmiEarcController$EarcAidlCallback$$ExternalSyntheticLambda0: void <init>(com.android.server.hdmi.HdmiEarcController$EarcAidlCallback,byte,int)>
+
+CALLER: <com.android.server.devicestate.DeviceStateManagerService$HalService$HalBinderCallback: void onDeviceStateInfoChanged(android.hardware.devicestate.DeviceStateInfo)>
+    -> <android.frameworks.devicestate.DeviceStateConfiguration: void <clinit>()>
+    -> <com.android.server.devicestate.DeviceStateManagerService$HalService: android.util.LongSparseLongArray '-$$Nest$fgetmPublicProperties'(com.android.server.devicestate.DeviceStateManagerService$HalService)>
+    -> <android.frameworks.devicestate.DeviceStateConfiguration: void <init>()>
+
+CALLER: <android.frameworks.devicestate.DeviceStateConfiguration: void <clinit>()>
+    -> <android.frameworks.devicestate.DeviceStateConfiguration$1: void <init>()>
+
+CALLER: <com.android.server.devicestate.DeviceStateManagerService$HalService$HalBinderCallback: void <init>(com.android.server.devicestate.DeviceStateManagerService$HalService,android.frameworks.devicestate.IDeviceStateListener,com.android.server.devicestate.DeviceStateManagerService-IA)>
+    -> <com.android.server.devicestate.DeviceStateManagerService$HalService$HalBinderCallback: void <init>(com.android.server.devicestate.DeviceStateManagerService$HalService,android.frameworks.devicestate.IDeviceStateListener)>
+
